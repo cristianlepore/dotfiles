@@ -226,3 +226,4 @@ add_newline() {
 
 [ -f ~/.secrets ] && source ~/.secrets
 
+export PATH="/sbin:/usr/sbin:$PATH"
